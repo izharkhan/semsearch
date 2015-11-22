@@ -1,0 +1,5 @@
+Semsearch is a keyword-based semantic search engine, which aims to wrap up the complexity of semantic search and make it suitable for naive users who are not necessarily familairy with the problem domain or with the specified query language.
+
+Semsearch subscribes to a layered architecture of the search engine, which comprises five layers: i) a Google-like query interface, which provides a straightforward way of specifying queries usering multiple keywords; ii) a Text search layer, which locates the keywords in the underlying domain ontology and semantic data repositories; iii) a query layer, which translates user quereis into formal queries; iv) a formal query layer, which retrieves results from the semantic data repositories; and v) a semantic data layer, which contains ontologies and semantic metadata of the problem domain.
+
+This work was (partly) funded by the X-Media project (www.x-media-project.org) sponsored by the European Commission as part of the Information Society Technologies (IST) programme under EC grant number IST-FP6-026978.
